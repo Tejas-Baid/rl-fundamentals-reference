@@ -12,7 +12,6 @@ from rl.utils.general import argmax_ties_random
 
 matplotlib.use('TkAgg')
 
-
 class EpsilonGreedy:
     def __init__(
         self,
@@ -280,13 +279,13 @@ if __name__ == "__main__":
     """
 
     # Epsilon Sweep Experiment
-    # epsilon_sweep_experiment()
+    epsilon_sweep_experiment()
 
     # Optimistic Initial Values Experiment
     # Uncomment one of the following lines to run the experiment with desired options:
 
     # Run with default settings
-    initial_val_experiment()
+    # initial_val_experiment()
 
     # Run showing individual runs
     # initial_val_experiment(show_individual_runs=True)
